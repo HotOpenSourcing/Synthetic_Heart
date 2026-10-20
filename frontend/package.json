@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "SyntH Stage — standalone Vue 3 frontend for the SyntH avatar (Karada client). Portions ported from Project AIRI (MIT), see NOTICE.md.",
+  "description": "SyntH Stage \u2014 standalone Vue 3 frontend for the SyntH avatar (Karada client). Portions ported from Project AIRI (MIT), see NOTICE.md.",
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
+    "dev": "node init && vite",
+    "build": "node init && vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "typecheck": "vue-tsc --noEmit"
   },

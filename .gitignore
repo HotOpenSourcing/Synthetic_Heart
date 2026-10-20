@@ -1,6 +1,5 @@
 venv
 .venv*
-.env*
 data
 *.pyc
 *.pyo
@@ -61,7 +60,6 @@ SyntH_main
 TODO*.md
 .github/prompts
 old
-.vscode/*
 !.vscode/mcp.json
 node_modules/
 tmp*
@@ -80,7 +78,6 @@ opencode.json
 .codex
 .cursor
 .gemini
-.vscode
 .zed
 api.py
 # Local installer outputs and downloaded packaging dependencies
@@ -125,3 +122,4 @@ res/synth_webui/static/audio/tts/
 # pgvector binaries vendored into the Windows installer by CI, not by hand;
 # installer/vendor/README.md explains where they come from.
 installer/vendor/pgvector/
+config.bat
